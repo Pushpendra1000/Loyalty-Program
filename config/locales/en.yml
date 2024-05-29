@@ -1,0 +1,70 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t "hello"
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t("hello") %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   "true": "foo"
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+en:
+  hello: "Hello world"
+
+  user:
+    create: 'Here are the user details'
+    update: 'User details updated'
+    show: 'User details'
+    login: 'Login successful'
+    login_error: 'Invalid email or password'
+    invalid_params: 'Invalid parameter'
+
+  transaction:
+    create: 'Transaction Successful'
+    show: 'Transaction Details'
+    list: 'Here is the Transaction History'
+    invalid_params: 'Invalid parameter'
+
+  reward:
+    list: 'Here are your rewards'
+    show: 'Reward Details'
+    update: 'Reward Claimed!'
+    already_claimed: 'Reward Already Claimed'
+    birthday_month_reward:
+      title: 'Birthday Coffee Reward'
+      description: 'This is your birthday reward'
+    monthly_spend_reward:
+      title: 'Free Coffee Reward'
+      description: 'You have earned more than 100 loyalty points in a month'
+    rebate_on_transactions:
+      title: 'Rebate Reward'
+      description: 'You have received a rebate of $%{rebate_amount}'
+    movie_ticket_reward:
+      title: 'Movie Ticket Reward'
+      description: 'You have spent more than 1000$ within 60 days'
+    airport_lounge_reward:
+      title: 'Airport Lounge Reward'
+      description: 'Congratulation! you have upgraded to Gold Tier and you have got reward of 4 times Airport Lounge Access'
+
+
